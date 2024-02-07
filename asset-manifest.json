@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/malditectist-webapp-frontend/static/css/main.f855e6bc.css",
+    "main.js": "/malditectist-webapp-frontend/static/js/main.1453c622.js",
+    "static/js/592.fe336650.chunk.js": "/malditectist-webapp-frontend/static/js/592.fe336650.chunk.js",
+    "static/media/logo.svg": "/malditectist-webapp-frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/malditectist-webapp-frontend/index.html",
+    "main.f855e6bc.css.map": "/malditectist-webapp-frontend/static/css/main.f855e6bc.css.map",
+    "main.1453c622.js.map": "/malditectist-webapp-frontend/static/js/main.1453c622.js.map",
+    "592.fe336650.chunk.js.map": "/malditectist-webapp-frontend/static/js/592.fe336650.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.1453c622.js"
+  ]
+}
