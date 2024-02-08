@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Preloader from './components/Preloader/Preloader';
+import FileUpload from './components/FileUpload/FileUpload';
 
-function App() {
+const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Replace the current entry on the history stack.
+    window.history.replaceState({ ...window.history.state, scrollToTop: true }, '');
+
+    const timer = setTimeout(() => {
+      setLoading(false);
+      // Scroll to the top if the state object is present.
+      if (window.history.state?.scrollToTop) {
+        window.scrollTo(0, 0);
+      }
+    }, 2000); // (in milliseconds)
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {loading && <Preloader />}
+      <FileUpload />
     </div>
   );
-}
+};
 
 export default App;

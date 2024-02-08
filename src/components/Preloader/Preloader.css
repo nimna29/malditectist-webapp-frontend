@@ -1,0 +1,63 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: #121721;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.malditectist-logo-icon {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://raw.githubusercontent.com/nimna29/malditectist-assets/main/logos/MalDitectist_Logo_V2.0_White_Color.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pre-spinner {
+    --clr: rgb(240, 253, 255);
+    --gap: 6px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.pre-spinner span {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: var(--clr);
+    opacity: 0;
+}
+
+.pre-spinner span:nth-child(1) {
+    animation: fade 1s ease-in-out infinite;
+}
+
+.pre-spinner span:nth-child(2) {
+    animation: fade 1s ease-in-out 0.33s infinite;
+}
+
+.pre-spinner span:nth-child(3) {
+    animation: fade 1s ease-in-out 0.66s infinite;
+}
+
+@keyframes fade {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+}
