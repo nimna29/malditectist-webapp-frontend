@@ -83,10 +83,10 @@ export const useFileUpload = () => {
         try {
             const isProduction = process.env.NODE_ENV === 'production';
             const apiUrl = isProduction
-                ? '/api/upload_file/'
+                ? 'https://malditectist-backend.onrender.com/api/upload_file/'
                 : 'http://localhost:8000/api/upload_file/';
             const largeFileApiUrl = isProduction
-                ? '/api/upload_large_file/'
+                ? 'https://malditectist-backend.onrender.com/api/upload_large_file/'
                 : 'http://localhost:8000/api/upload_large_file/';
 
             const targetApiUrl =
@@ -126,7 +126,7 @@ export const useFileUpload = () => {
         try {
             const isProduction = process.env.NODE_ENV === 'production';
             const apiUrl = isProduction
-                ? `/api/search_result/${resultId}/`
+                ? `https://malditectist-backend.onrender.com/api/search_result/${resultId}/`
                 : `http://localhost:8000/api/search_result/${resultId}/`;
 
             const response = await axios.get(apiUrl);
