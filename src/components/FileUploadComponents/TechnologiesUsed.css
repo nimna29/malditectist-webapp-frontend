@@ -51,12 +51,12 @@
 
 /* heroku-logo */
 
-.heroku-logo {
+.render-logo {
     width: 6%;
-    height: 80%;
+    height: 66%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('https://raw.githubusercontent.com/nimna29/malditectist-assets/main/logos/heroku-logo.png');
+    background-image: url('https://raw.githubusercontent.com/nimna29/malditectist-assets/main/logos/render-logo.png');
 }
 
 
@@ -71,14 +71,15 @@
 }
 
 
-/* django-logo */
+/* fastapi-logo */
 
-.django-logo {
-    width: 11%;
+.fastapi-logo {
+    width: 17%;
     height: 80%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('https://raw.githubusercontent.com/nimna29/malditectist-assets/main/logos/django-logo.png');
+    margin-top: 1%;
+    background-image: url('https://raw.githubusercontent.com/nimna29/malditectist-assets/main/logos/fastapi-logo.png');
 }
 
 
