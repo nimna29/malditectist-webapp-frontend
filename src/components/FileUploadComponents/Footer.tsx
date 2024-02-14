@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                     <a href="https://github.com/nimna29" className="github-logo" target="_blank" rel="noopener noreferrer">
                         <span className="visually-hidden">GitHub profile</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/nimna-niwarthana-4b7357207/" className="linkedin-logo" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/nimna-niwarthana" className="linkedin-logo" target="_blank" rel="noopener noreferrer">
                         <span className="visually-hidden">LinkedIn profile</span>
                     </a>
                 </div>
@@ -19,10 +19,10 @@ const Footer: React.FC = () => {
             <div className="end-of-footer">
                 <nav className="footer-menu">
                     <ul className="footer-menu-text">
-                        <li><a href="https://www.malditectist.com/">HOME</a></li>
-                        <li><a href="https://www.malditectist.com/">ABOUT</a></li>
+                        <li><a href="https://nimna29.github.io/malditectist-webapp-frontend/">HOME</a></li>
+                        <li><a href="https://nimna29.github.io/malditectist-webapp-frontend/">ABOUT</a></li>
                         <li><a href="https://forms.gle/8xXmTnVY3yGbAVWP8" target="_blank" rel="noopener noreferrer">FEEDBACK</a></li>
-                        <li><a href="https://www.malditectist.com/">TERMS & CONDITIONS</a></li>
+                        <li><a href="https://nimna29.github.io/malditectist-webapp-frontend/">TERMS & CONDITIONS</a></li>
                     </ul>
                 </nav>
                 <div className="footer-end">

@@ -57,7 +57,7 @@ const FileUpload = () => {
             <div className='page-content'>
                 <CustomMenu isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
                 <nav>
-                    <a href="https://www.malditectist.com/" className="logo">
+                    <a href="https://nimna29.github.io/malditectist-webapp-frontend/" className="logo">
                         <span className="visually-hidden">MalDitectist Home</span>
                     </a>
                     <div className="menu-icon" onClick={toggleMenu}></div>

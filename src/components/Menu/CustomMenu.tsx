@@ -24,16 +24,16 @@ const CustomMenu: React.FC<CustomMenuProps> = ({ isOpen, onClose }) => {
       {isOpen && (
         <div className="menu-overlay" onClick={handleClose}>
           <div className="menu-container" onClick={(e) => e.stopPropagation()}>
-            <a href="https://www.malditectist.com/" className="menu-item" onClick={handleClose}>
+            <a href="https://nimna29.github.io/malditectist-webapp-frontend/" className="menu-item" onClick={handleClose}>
               HOME
             </a>
-            <a href="https://www.malditectist.com/" className="menu-item" onClick={handleClose}>
+            <a href="https://nimna29.github.io/malditectist-webapp-frontend/" className="menu-item" onClick={handleClose}>
               ABOUT
             </a>
             <a href="https://forms.gle/8xXmTnVY3yGbAVWP8 " className="menu-item" onClick={handleClose} target="_blank" rel="noopener noreferrer">
               FEEDBACK
             </a>
-            <a href="https://www.malditectist.com/" className="menu-item" onClick={handleClose}>
+            <a href="https://nimna29.github.io/malditectist-webapp-frontend/" className="menu-item" onClick={handleClose}>
               TERMS &amp; CONDITIONS
             </a>
           </div>

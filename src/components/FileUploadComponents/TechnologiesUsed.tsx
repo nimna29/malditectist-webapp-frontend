@@ -7,9 +7,9 @@ const TechnologiesUsed: React.FC = () => {
             <div className="technologies-used-heading-text">Technologies Used</div>
             <div className="technologies-used-content-area">
                 <div className="technologies-used-icon-area">
-                    <div className="heroku-logo"></div>
+                    <div className="render-logo"></div>
                     <div className="python-logo"></div>
-                    <div className="django-logo"></div>
+                    <div className="fastapi-logo"></div>
                     <div className="anaconda-logo"></div>
                     <div className="react-logo"></div>
                     <div className="ts-logo"></div>
