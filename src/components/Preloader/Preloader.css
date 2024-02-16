@@ -21,6 +21,48 @@
     background-position: center;
 }
 
+.preloader-message {
+    margin-top: 1%;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    overflow: hidden;
+    /* Hide the overflow content */
+    border-right: 0.15em solid transparent;
+    /* Create the typing cursor effect */
+    animation: typing 5s steps(10, end) infinite;
+    /* Typing animation */
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+        /* Start with no width (invisible) */
+    }
+    25% {
+        width: 8%;
+        /* Start with no width (invisible) */
+    }
+    50% {
+        width: 13%;
+        /* End with partial width (visible) */
+    }
+    100% {
+        width: 13%;
+        /* Stay at partial width for waiting time */
+    }
+}
+
+.typing-text {
+    display: inline-block;
+    /* Display as inline block to apply the typing animation */
+}
+
 .pre-spinner {
     --clr: rgb(240, 253, 255);
     --gap: 6px;

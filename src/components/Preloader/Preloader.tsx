@@ -1,7 +1,11 @@
 import React from 'react';
 import './Preloader.css';
 
-const Preloader: React.FC = () => {
+interface PreloaderProps {
+    message?: string | null;
+}
+
+const Preloader: React.FC<PreloaderProps> = ({ message }) => {
     return (
         <div className="preloader" data-testid="preloader">
             <div className="malditectist-logo-icon" />
@@ -10,6 +14,11 @@ const Preloader: React.FC = () => {
                 <span></span>
                 <span></span>
             </div>
+            {message && (
+                <div className="preloader-message">
+                    <span className="typing-text">{message}</span>
+                </div>
+            )}
         </div>
     );
 };
