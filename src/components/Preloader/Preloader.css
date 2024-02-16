@@ -44,16 +44,24 @@
         width: 0;
         /* Start with no width (invisible) */
     }
-    25% {
-        width: 8%;
+    20% {
+        width: 7%;
+        /* Start with no width (invisible) */
+    }
+    40% {
+        width: 14%;
         /* Start with no width (invisible) */
     }
     50% {
-        width: 13%;
+        width: 25%;
+        /* End with partial width (visible) */
+    }
+    75% {
+        width: 35%;
         /* End with partial width (visible) */
     }
     100% {
-        width: 13%;
+        width: 50%;
         /* Stay at partial width for waiting time */
     }
 }
