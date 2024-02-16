@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/malditectist-webapp-frontend/static/css/main.37fef84d.css",
+    "main.css": "/malditectist-webapp-frontend/static/css/main.cb8f6dbe.css",
     "main.js": "/malditectist-webapp-frontend/static/js/main.357be7a4.js",
     "static/js/592.fe336650.chunk.js": "/malditectist-webapp-frontend/static/js/592.fe336650.chunk.js",
     "index.html": "/malditectist-webapp-frontend/index.html",
-    "main.37fef84d.css.map": "/malditectist-webapp-frontend/static/css/main.37fef84d.css.map",
+    "main.cb8f6dbe.css.map": "/malditectist-webapp-frontend/static/css/main.cb8f6dbe.css.map",
     "main.357be7a4.js.map": "/malditectist-webapp-frontend/static/js/main.357be7a4.js.map",
     "592.fe336650.chunk.js.map": "/malditectist-webapp-frontend/static/js/592.fe336650.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37fef84d.css",
+    "static/css/main.cb8f6dbe.css",
     "static/js/main.357be7a4.js"
   ]
 }
